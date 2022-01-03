@@ -158,7 +158,7 @@ def get_depot_tools(source_dir, fetch=False):
             cmd(['git', 'fetch'])
             cmd(['git', 'checkout', '-f', 'origin/HEAD'])
     else:
-        cmd(['git', 'clone', 'https://chromium.googlesource.com/chromium/tools/depot_tools.git', dir])
+        cmd(['git', 'clone','--depth','1', 'https://chromium.googlesource.com/chromium/tools/depot_tools.git', dir])
     return dir
 
 
