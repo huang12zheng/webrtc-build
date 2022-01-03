@@ -171,78 +171,78 @@ PATCH_INFO = {
 }
 
 PATCHES = {
-    'windows': [
-        '4k.patch',
-        'windows_add_deps.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-    ],
-    'macos_x86_64': [
-        'add_dep_zlib.patch',
-        '4k.patch',
-        'macos_h264_encoder.patch',
-        'macos_screen_capture.patch',
-        'macos_simulcast.patch',
-        'ios_simulcast.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-    ],
-    'macos_arm64': [
-        'add_dep_zlib.patch',
-        '4k.patch',
-        'macos_h264_encoder.patch',
-        'macos_screen_capture.patch',
-        'macos_simulcast.patch',
-        'ios_simulcast.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-    ],
-    'ios': [
-        'add_dep_zlib.patch',
-        '4k.patch',
-        'macos_h264_encoder.patch',
-        'macos_screen_capture.patch',
-        'macos_simulcast.patch',
-        'ios_manual_audio_input.patch',
-        'ios_simulcast.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-        'ios_bitcode.patch',
-        'ios_disable_iossim.patch',
-    ],
-    'android': [
-        'add_dep_zlib.patch',
-        '4k.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-        'android_webrtc_version.patch',
-        'android_fixsegv.patch',
-        'android_simulcast.patch',
-    ],
-    'raspberry-pi-os_armv6': [
-        'nacl_armv6_2.patch',
-        'add_dep_zlib.patch',
-        '4k.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-    ],
-    'raspberry-pi-os_armv7': [
-        'add_dep_zlib.patch',
-        '4k.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-    ],
-    'raspberry-pi-os_armv8': [
-        'add_dep_zlib.patch',
-        '4k.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-    ],
-    'ubuntu-18.04_armv8': [
-        'add_dep_zlib.patch',
-        '4k.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-    ],
-    'ubuntu-18.04_x86_64': [
-        '4k.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-    ],
-    'ubuntu-20.04_x86_64': [
-        '4k.patch',
-        'ssl_verify_callback_with_native_handle.patch',
-    ]
+    # 'windows': [
+    #     '4k.patch',
+    #     'windows_add_deps.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    # ],
+    # 'macos_x86_64': [
+    #     'add_dep_zlib.patch',
+    #     '4k.patch',
+    #     'macos_h264_encoder.patch',
+    #     'macos_screen_capture.patch',
+    #     'macos_simulcast.patch',
+    #     'ios_simulcast.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    # ],
+    # 'macos_arm64': [
+    #     'add_dep_zlib.patch',
+    #     '4k.patch',
+    #     'macos_h264_encoder.patch',
+    #     'macos_screen_capture.patch',
+    #     'macos_simulcast.patch',
+    #     'ios_simulcast.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    # ],
+    # 'ios': [
+    #     'add_dep_zlib.patch',
+    #     '4k.patch',
+    #     'macos_h264_encoder.patch',
+    #     'macos_screen_capture.patch',
+    #     'macos_simulcast.patch',
+    #     'ios_manual_audio_input.patch',
+    #     'ios_simulcast.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    #     'ios_bitcode.patch',
+    #     'ios_disable_iossim.patch',
+    # ],
+    # 'android': [
+    #     'add_dep_zlib.patch',
+    #     '4k.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    #     'android_webrtc_version.patch',
+    #     'android_fixsegv.patch',
+    #     'android_simulcast.patch',
+    # ],
+    # 'raspberry-pi-os_armv6': [
+    #     'nacl_armv6_2.patch',
+    #     'add_dep_zlib.patch',
+    #     '4k.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    # ],
+    # 'raspberry-pi-os_armv7': [
+    #     'add_dep_zlib.patch',
+    #     '4k.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    # ],
+    # 'raspberry-pi-os_armv8': [
+    #     'add_dep_zlib.patch',
+    #     '4k.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    # ],
+    # 'ubuntu-18.04_armv8': [
+    #     'add_dep_zlib.patch',
+    #     '4k.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    # ],
+    # 'ubuntu-18.04_x86_64': [
+    #     '4k.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    # ],
+    # 'ubuntu-20.04_x86_64': [
+    #     '4k.patch',
+    #     'ssl_verify_callback_with_native_handle.patch',
+    # ]
 }
 
 
